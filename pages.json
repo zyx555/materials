@@ -1,0 +1,138 @@
+{
+	"pages": [
+	 {
+            "path" : "pages/list/list",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "项目列表",
+                "enablePullDownRefresh": true
+            }
+            
+        },
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			 }
+		  }    
+		,
+        {
+            "path" : "pages/shopping/shopping",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "已勾选项目",
+                "enablePullDownRefresh": false,
+				"app-plus":{
+							"bounce":"none",
+							"titleNView": {
+								"buttons": [
+									{
+								    "color": "#fff",
+								    "colorPressed": "#FD6801",
+								    "float": "right",
+								    "fontSize": "22px",
+								    "fontSrc": "static/riFill-shopping-cart-2-fill Copy.png",
+								    "text": "\ue711",
+								    "badgeText": 0, //修改这个的值
+								    "signType": "message"
+								
+									}
+								]
+							}
+						}
+            }
+            
+        }
+        ,{
+            "path" : "pages/me/me",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "个人中心",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/accountSafe/accountSafe",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "账户安全",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/history/history",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "历史报价单",
+                "enablePullDownRefresh": true
+				// "app-plus": {
+				// 	"scrollIndicator": "none",
+				// 	"bounce": "none",
+				// 	"pullToRefresh": {
+				// 		"support": true,
+				// 		"style": "circle",
+				// 		"offset": "70px"
+				// 	}
+				// }
+            }
+            
+        }
+        ,{
+            "path" : "pages/quotation/quotation",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/price/price",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"tabBar": {
+		"selectedColor": "#2784FF",
+		"list": [
+			{
+				"pagePath": "pages/list/list",
+				"iconPath": "static/iconPark-view-list.png",
+				"selectedIconPath": "static/iconPark-view-list Copy.png",
+				"fontSize": "14px",
+				"text": "项目列表"
+				
+			},
+			{   
+				"pagePath": "pages/shopping/shopping",
+				"iconPath": "static/riFill-shopping-cart-2-fill.png",
+				"fontSize": "14px",
+				"text": "已勾选项目",
+				"selectedIconPath": "static/riFill-shopping-cart-2-fill Copy.png"
+				
+			},
+			{
+				"pagePath": "pages/me/me",
+				"iconPath": "static/md-account_circle.png",
+				"fontSize": "14px",
+				"text": "个人中心",
+				"selectedIconPath": "static/md-account_circle Copy.png"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#2784FF",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	}
+}

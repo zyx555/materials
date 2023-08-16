@@ -1,0 +1,26 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.item {
+  display: flex;
+  justify-content: center;
+}
+.password {
+  width: 233px;
+  height: 30px;
+  font-size: 14px;
+  border-bottom: 1px solid #BBBBBB;
+  color: #888888;
+  padding: 4px;
+}
+.updateButton {
+  width: 80px;
+  height: 30px;
+  background-color: #2784FF;
+  color: #FFFFFF;
+  line-height: 30px;
+  font-size: 14px;
+  margin-top: 45px;
+  padding: 0px;
+}
+

@@ -1,0 +1,166 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.container {
+  width: 100%;
+  height: 100vh;
+  /*原生一定得有这个overflow的hidden效果,此处用了scroll-view所以不需要*/
+  /*overflow:auto;*/
+}
+.shell {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 99;
+}
+.shell {
+  height: 57px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFFFFF;
+  box-shadow: 0px 4px 9px 0px #BBBBBB;
+  margin-bottom: 10px;
+  flex: 0 0 100rpx;
+}
+.box {
+  display: flex;
+  flex-direction: row;
+}
+.example-body {
+  background-color: #fff;
+  padding: 10px 20px;
+  margin-left: -28px;
+}
+.popup-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 15px;
+  height: 50px;
+  background-color: #2784FF;
+}
+.popup-height {
+  height: 100%;
+  width: 200px;
+}
+.classificationItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 17px;
+  margin-top: 14px;
+  margin-bottom: 14px;
+  width: 80px;
+}
+.classificationNumber {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 28px;
+  line-height: 50px;
+  text-align: center;
+  background-color: #FFFFFF;
+}
+.classficationTitle {
+  font-size: 14px;
+  color: #F8F8F9;
+  text-align: center;
+  margin: 5px 0px;
+}
+.classficationDescription {
+  width: 80px;
+  font-size: 12px;
+  text-align: center;
+  color: #F8F8F9;
+  line-height: 15px;
+}
+.image {
+  width: 25px;
+  height: 25px;
+}
+.grid-item-box {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 0;
+}
+.grid-item-box-row {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 0;
+}
+.grid-dot {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+}
+.classification {
+  width: 24px;
+  height: 24px;
+  background-color: #2784FF;
+}
+.searchInput {
+  width: 180px;
+  height: 30px;
+  font-size: 14px;
+  border: 1px  solid  #BBBBBB;
+  border-radius: 6px;
+  padding-left: 10px;
+}
+.searchButton {
+  width: 51px;
+  height: 22px;
+  font-size: 14px;
+  line-height: 22px;
+  background-color: #2784FF;
+  margin-left: 203px;
+  margin-top: -28px;
+  padding: 0;
+  color: #FFFFFF;
+}
+.slot-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.shoppingCar {
+  width: 25px;
+  height: 25px;
+}
+.slot-image {
+  display: block;
+  margin-right: 10px;
+  margin-left: auto;
+  width: 25px;
+  height: 25px;
+}
+.slot-text {
+  flex: 1;
+  font-size: 14px;
+  color: #4cd964;
+  margin-right: 10px;
+}
+.uni-list-item {
+  width: 90%;
+  box-shadow: 0px 1px 4px black;
+  margin: 30px auto;
+}
+.commodityPrice {
+  font-size: 14px;
+  color: #FE6104;
+}
+.classficationName {
+  font-size: 16px;
+  padding-left: 19px;
+  margin-top: 10px;
+}
+
